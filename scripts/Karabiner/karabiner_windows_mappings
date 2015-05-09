@@ -1,0 +1,17 @@
+#!/bin/sh
+
+cli=/Applications/Karabiner.app/Contents/Library/bin/karabiner
+
+$cli set remap.commandL2optionL 1
+/bin/echo -n .
+$cli set remap.pointing_mousebutton4_to_back_scrollwheel 1
+/bin/echo -n .
+$cli set remap.optionL2commandL_vm 1
+/bin/echo -n .
+$cli set remap.controlL2fn 1
+/bin/echo -n .
+$cli set remap.fn2commandL_fn2controlL_vm 1
+/bin/echo -n .
+$cli set remap.optionL2controlL 1
+/bin/echo -n .
+/bin/echo
