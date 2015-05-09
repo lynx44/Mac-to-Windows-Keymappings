@@ -16,11 +16,11 @@ The phrase "virtual key" refers to the semantic meaning of the newly mapped key,
 
 ## Contents
 
-[Step 1 - Swap the Fn, Ctrl, Option, and Command keys](#step1)
-[Step 2 - Update Keybindings for cursor movement](#step2)
-[Step 3 (Optional) - Disable special characters when using the option key in conjunction with a letter](#step3)
-[Step 4 (Optional) - Windows snap functionality](#step4)
-[Step 5 (Optional) - Fix scrolling when using Windows with Parallels](#step5)
+ - [Step 1 - Swap the Fn, Ctrl, Option, and Command keys](#step1)
+ - [Step 2 - Update Keybindings for cursor movement](#step2)
+ - [Step 3 (Optional) - Disable special characters when using the option key in conjunction with a letter](#step3)
+ - [Step 4 (Optional) - Windows snap functionality](#step4)
+ - [Step 5 (Optional) - Fix scrolling when using Windows with Parallels](#step5)
 
 ## <a name="step1"></a>Step 1 - Swap the Fn, Ctrl, Option, and Command keys
 
@@ -28,10 +28,10 @@ The phrase "virtual key" refers to the semantic meaning of the newly mapped key,
 
 This will remap your keyboard to exhibit the following behaviors:
 
- | Symbol on keyboard | Mac Mapping                                                  | Windows Mapping |
+| Symbol on keyboard | Mac Mapping                                                  | Windows Mapping |
 |--------------------|--------------------------------------------------------------|-----------------|
 | fn                 | command ⌘ (fn for Function Keys, like brightness adjustment) | ctrl            |
-| control               | fn                                                           | fn              |
+| control            | fn                                                           | fn              |
 | option             | Ctrl                                                         | win             |
 | command ⌘          | option/alt                                                   | alt             |
 
