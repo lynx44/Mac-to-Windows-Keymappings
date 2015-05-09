@@ -46,7 +46,9 @@ This will remap your keyboard to exhibit the following behaviors:
 
 Open an application, ensure that keyboard keys `fn-c` and `fn-v` copy and paste a line.
 
-If you're using [Parallels](http://www.parallels.com/) or presumably another virtual instance inside your OS X install, try using the `fn` key as the `ctrl` - this should also work as expected.
+If you're using [Parallels](http://www.parallels.com/) or another virtual instance inside your OS X install, try using the `fn` key as the `ctrl` key - this should also work as expected.
+
+*Note* - The Windows Ctrl behavior has only been tested in Parallels, but Karabiner implies that this should work on other VMs such as VirtualBox or VMWare.
 
 ### Extending
 
@@ -60,7 +62,7 @@ Feel free to submit a pull request if you add functionality that improves compat
 
 ### Purpose
 
- - Change the behavior of the virtual `ctrl` key (keyboard key `fn`) to jump by words, rather than lines when using the arrow key
+ - Change the behavior of the virtual `ctrl` key (keyboard key `fn`) to jump by words, rather than line endings when using the arrow key
  - Update the virtual `fn` key (keyboard key `control`) to: 
   - `page up` and `page down` when used with the up and down arrow keys
   - navigate `home` and `end` when used with the left and right arrow keys
@@ -75,7 +77,7 @@ Feel free to submit a pull request if you add functionality that improves compat
 
  - Open TextEdit and type a few lines of text with spaces (copy it from this readme if that's easiest)
   - Use keyboard keys `control-left` and `control-right` to navigate to the beginning and end of a line
-  - Use keyboard keys `control`-up and `control`-down to page up and down
+  - Use keyboard keys `control-up` and `control-down` to page up and down
 
 ### Extending
 
@@ -89,7 +91,7 @@ Feel free to submit a pull request if you add functionality that improves compat
 
 ### Purpose
 
-I'm a programmer, and I use IntelliJ to do a lot of my programming. This particular program makes a lot of use of the Alt key to perform special actions. This causes issues when using a Mac keyboard, because it inserts special characters when pressing `Option-Letter`, rather than performing the action the application has assigned it.
+I'm a programmer, and I use IntelliJ to do a lot of my programming. This particular application makes a lot of use of the `alt` key to perform special actions. This causes issues when using a Mac keyboard, because it inserts special characters when pressing `option-letter`, rather than performing the action the application has assigned it.
 
 If you need the virtual `alt` key to function as it would in Windows, you may need to disable this feature.
 
@@ -107,11 +109,11 @@ Credit goes to [Peter Lamburg in this StackOverflow post](http://stackoverflow.c
 
 ### Test
 
-Open an application and type virtual `alt`-z (keyboard key `command`). Verify that this does not type a symbol.
+Open an application and type virtual `alt-z` (keyboard key `command`). Verify that this does not type a symbol.
 
 ### Extending
 
-I simply bummed this off of [Peter Lamberg's aforementioned StackOverflow post](http://stackoverflow.com/questions/11876485/how-to-disable-typing-special-characters-when-pressing-option-key-in-mac-os-x), but he mentions that he used [Ukelele](http://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&id=ukelele).
+I simply bummed this off of [Peter Lamberg's aforementioned StackOverflow post](http://stackoverflow.com/questions/11876485/how-to-disable-typing-special-characters-when-pressing-option-key-in-mac-os-x), but he mentions that he used [Ukelele](http://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&id=ukelele) to create the original file.
  
 Feel free to submit a pull request if you add functionality that improves compatibility or better matches a Windows style keyboard.
 
@@ -132,12 +134,12 @@ This step will give you that ability using the mouse or keyboard shortcuts.
    - Go back to the main Preferences dialog
   - Click on Keyboard
    - Click "Add New Shortcut" to
-    - Virtual `win`-right (keyboard key `alt`) -> Maximize Window Right
-    - Virtual `win`-left (keyboard key `alt`) -> Maximize Window Left
-    - Virtual `win`-up (keyboard key `alt`) -> Maximize Window
-    - Virtual `win`-down (keyboard key `alt`) -> Restore Old Window Size
+    - Virtual `win-right` (keyboard key `alt`) -> `Maximize Window Right`
+    - Virtual `win-left` (keyboard key `alt`) -> `Maximize Window Left`
+    - Virtual `win-up` (keyboard key `alt`) -> `Maximize Window`
+    - Virtual `win-down` (keyboard key `alt`) -> `Restore Old Window Size`
 
-*Note* - I actually had to modify these keyboard shortcuts to be virtual `win`+`alt` (keyboard keys `alt`+`command`) due to conflicts that I don't recall at this time.
+*Note* - I actually had to modify these keyboard shortcuts to be virtual `win+alt` (keyboard keys `alt+command`) due to conflicts that I don't recall at this time.
 
 ### Extending
 
